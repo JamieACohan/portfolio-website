@@ -322,7 +322,7 @@ border-top: 0.1875rem solid var(--primary-orange);
 
 .portfolio-image {
   width: 15rem;
-  height: 8rem;
+  height: 12rem;
   border: 1px solid var(--primary-orange);
   padding: 0 0.5rem;
 }
@@ -338,7 +338,7 @@ border-top: 0.1875rem solid var(--primary-orange);
    opacity: 0;
    background: var(--primary-black);
    width: 15rem;
-   height: 8rem;
+   height: 12rem;
    top: 0;
   border: 1px solid var(--primary-red);
   cursor: pointer;
