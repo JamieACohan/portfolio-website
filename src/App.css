@@ -565,7 +565,7 @@ textarea.form-control {
   text-align: left;
 }
 
-.contacts.success-message {
+.success-message {
   font-weight: 900;
   color: var(--primary-green);
 }
