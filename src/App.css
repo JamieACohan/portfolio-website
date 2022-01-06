@@ -23,8 +23,10 @@ nav{
   z-index: 2;
 }
 
-.logo{
-  width: 16.25rem;
+.logo {
+  width: 10.25rem;
+  height: 4.5rem;
+  margin-top: 0.5rem;;
 }
 
 nav a.nav-link {
@@ -58,7 +60,7 @@ nav ul li {
 
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
 border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -72,7 +74,7 @@ border-top: 0.1875rem solid var(--primary-orange);
   background: url(wall-and-laptop-background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info{
@@ -366,10 +368,15 @@ border-top: 0.1875rem solid var(--primary-orange);
   cursor: pointer;
 }
 
+.popupbox-wrapper {
+  margin-top: 7rem;
+}
+
 /*------------ OVERFLOW BOX ------------------*/
 .portfolio-image-popupbox {
   width: 45rem;
   padding: 0 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .hyper-link {
@@ -583,4 +590,26 @@ textarea.form-control {
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+/************************ FOOTER COMPONENT *********************************/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor:pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
