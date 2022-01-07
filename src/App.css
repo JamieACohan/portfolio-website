@@ -25,8 +25,7 @@ nav{
 
 .logo {
   width: 10.25rem;
-  height: 4.5rem;
-  margin-top: 0.5rem;;
+  height: 3.5rem;
 }
 
 nav a.nav-link {
@@ -50,7 +49,7 @@ nav ul li {
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
-  height: 6rem !important;
+  height: 3.5rem !important;
 }
 
 @media(max-width: 768px) {
