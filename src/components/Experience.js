@@ -10,7 +10,7 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2014-2015</h3>
+            <h3>May 2014 - Sept 2015</h3>
             <h4>The Old Mill - Sales Assistant</h4>
             <ul>
               <li>Ensuring that orders where processed on time </li>
@@ -23,7 +23,7 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2014-2015</h3>
+            <h3>Oct 2015 - May 2017</h3>
             <h4>Dunnes Stores - Lounge Staff</h4>
             <ul>
               <li>Ensuring high levels of customer satisfaction through excellent sales service </li>
@@ -36,7 +36,7 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>May 2017 - September 2017</h3>
+            <h3>May 2017 - Sept 2017</h3>
             <h4>Sysnet Global Solutions - Call Center Agent</h4>
             <ul>
               <li>Support and provide superior PCI DSS support via telephone, emails and chats (instant messaging) by handling all incoming interactions, and outgoing interactions when required </li>
@@ -53,7 +53,7 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>October 2017 - January 2018</h3>
+            <h3>Oct 2017 - Jan 2018</h3>
             <h4>Paddy Power - Call Center Agent</h4>
             <ul>
               <li>To respond to customer betting requests in a prompt and efficient manner </li>
@@ -68,7 +68,7 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>January 2018 -  Auguest 2018</h3>
+            <h3>Jan 2018 - Aug 2018</h3>
             <h4>Verifone - Embedded linux Engineer Intern</h4>
             <ul>
               <li>Setup, evaluate, and optimize tools to auto-fuzz software performance </li>
@@ -82,7 +82,7 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>July 2018 - July 2019</h3>
+            <h3>Jul 2018 - Jul 2019</h3>
             <h4>BOC Gases - Call Center Agent</h4>
             <ul>
               <li>Troubleshooting customer queries over the phone</li>
@@ -96,7 +96,7 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>October 2019 - Present</h3>
+            <h3>Oct 2019 - Present</h3>
             <h4>Verizon Connect - Backend Developer/QA Engineer</h4>
             <ul>
               <li>Setup, monitoring and maintaining the DevOps CI/CD pipeline</li>

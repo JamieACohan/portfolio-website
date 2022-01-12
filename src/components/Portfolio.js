@@ -12,12 +12,18 @@ import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
 const Portfolio = () => {
-    // Netflix
+  // Netflix
   const openPopupboxNetflix = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={netflix} alt="Netflix Clone Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
+        <img className="portfolio-image-popupbox" src={netflix} alt="PocketCoach (Final Year Project)..." />
+        <ul>
+          <li>A cross platform mobile application build using Ionic framework to make managing clients easier for personal trainers and vice versa. </li>
+          <li>Utilized Google Cron jobs to provide subscription-based access to resources and implemented Stripe for payment. </li>
+          <li>Firestore was used as the back-end to host the application while also taking advantage of the Security and Cloud Messaging features that it offered and angular was used to design the front-end </li>
+          <li>Other features included Calorie Counting which made use of the NutritionX API for food Database, News Feed, Instant Messaging and Goal Tracking  </li>
+        </ul>
+        <p><b>Technologies & Tools Used:</b> Ionic Framework, Typescript, AngularJS, Firestore Database, Firebase Cloud Messaging, Firebase Authentication, Firebase Cloud Functions, HTML, CSS, Jenkins, NutritionX API, Google Cron Jobs (Task Schedule)</p>
         <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project")}>https://github.com/8020Coding/netflix-project</a>
       </>
     )
