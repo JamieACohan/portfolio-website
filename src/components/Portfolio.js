@@ -4,26 +4,58 @@ import cityGuide from "../images/city-guide-app.png";
 import mernBlog from "../images/mern-blog.png";
 import portfolio from "../images/portfolio.png";
 import taskManager from "../images/task-manager.jpg";
+import pocketCoachLogin from "../images/test.png"
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 // REACT POPUPBOX
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+// AVATARS IMPORTS
+import avatar1 from "../images/avatars/avatar-1.png";
+import avatar2 from "../images/avatars/avatar-2.png";
+import avatar3 from "../images/avatars/avatar-3.png";
+import avatar4 from "../images/avatars/avatar-4.png";
+import {
+  MDBCarousel,
+  MDBCarouselInner,
+  MDBCarouselItem,
+  MDBCarouselElement,
+  MDBCarouselCaption,
+} from 'mdb-react-ui-kit';
+import 'react-responsive-modal/styles.css';
+import { Modal } from 'react-responsive-modal';
 
 const Portfolio = () => {
   // Netflix
   const openPopupboxNetflix = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={netflix} alt="PocketCoach (Final Year Project)..." />
-        <ul>
-          <li>A cross platform mobile application build using Ionic framework to make managing clients easier for personal trainers and vice versa. </li>
-          <li>Utilized Google Cron jobs to provide subscription-based access to resources and implemented Stripe for payment. </li>
-          <li>Firestore was used as the back-end to host the application while also taking advantage of the Security and Cloud Messaging features that it offered and angular was used to design the front-end </li>
-          <li>Other features included Calorie Counting which made use of the NutritionX API for food Database, News Feed, Instant Messaging and Goal Tracking  </li>
-        </ul>
-        <p><b>Technologies & Tools Used:</b> Ionic Framework, Typescript, AngularJS, Firestore Database, Firebase Cloud Messaging, Firebase Authentication, Firebase Cloud Functions, HTML, CSS, Jenkins, NutritionX API, Google Cron Jobs (Task Schedule)</p>
+        <Carousel
+          showArrows={true}
+          infiniteLoop={true}
+          showThumbs={false}
+          showStatus={false}
+          autoPlay={true}
+          interval={3000}
+
+        >
+          <>
+            <img src={avatar1} alt="John Doe 1" />
+          </>
+          <>
+            <img src={avatar2} alt="Jane Doe 2" />
+          </>
+          <>
+            <img src={avatar3} alt="John Doe 3" />
+          </>
+          <>
+            <img src={avatar4} alt="John Doe 4" />
+          </>
+        </Carousel>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
         <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project")}>https://github.com/8020Coding/netflix-project</a>
       </>
     )
@@ -79,7 +111,7 @@ const Portfolio = () => {
   const popupboxConfigPortfolio = {
     titleBar: {
       enable: true,
-      text: "Poftfolio React and Material UI project."
+      text: "Portfolio React and Material UI project."
     },
     fadeIn: true,
     fadeInSpeed: 500
