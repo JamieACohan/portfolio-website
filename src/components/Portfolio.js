@@ -4,19 +4,57 @@ import cityGuide from "../images/city-guide-app.png";
 import mernBlog from "../images/mern-blog.png";
 import portfolio from "../images/portfolio.png";
 import taskManager from "../images/task-manager.jpg";
+import pocketCoachLogin from "../images/test.png"
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 // REACT POPUPBOX
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+// AVATARS IMPORTS
+import avatar1 from "../images/avatars/avatar-1.png";
+import avatar2 from "../images/avatars/avatar-2.png";
+import avatar3 from "../images/avatars/avatar-3.png";
+import avatar4 from "../images/avatars/avatar-4.png";
+import {
+  MDBCarousel,
+  MDBCarouselInner,
+  MDBCarouselItem,
+  MDBCarouselElement,
+  MDBCarouselCaption,
+} from 'mdb-react-ui-kit';
+import 'react-responsive-modal/styles.css';
+import { Modal } from 'react-responsive-modal';
 
 const Portfolio = () => {
-    // Netflix
+  // Netflix
   const openPopupboxNetflix = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={netflix} alt="Netflix Clone Project..." />
+        <Carousel
+          showArrows={true}
+          infiniteLoop={true}
+          showThumbs={false}
+          showStatus={false}
+          autoPlay={true}
+          interval={3000}
+
+        >
+          <>
+            <img src={avatar1} alt="John Doe 1" />
+          </>
+          <>
+            <img src={avatar2} alt="Jane Doe 2" />
+          </>
+          <>
+            <img src={avatar3} alt="John Doe 3" />
+          </>
+          <>
+            <img src={avatar4} alt="John Doe 4" />
+          </>
+        </Carousel>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
         <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project")}>https://github.com/8020Coding/netflix-project</a>
       </>
@@ -73,7 +111,7 @@ const Portfolio = () => {
   const popupboxConfigPortfolio = {
     titleBar: {
       enable: true,
-      text: "Poftfolio React and Material UI project."
+      text: "Portfolio React and Material UI project."
     },
     fadeIn: true,
     fadeInSpeed: 500
