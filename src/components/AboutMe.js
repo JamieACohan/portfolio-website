@@ -13,8 +13,8 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">about me</h1>
           <p>
-          .Net Developer at Verizon Connect with strong knowledge of Object Orientated programming and computer applications. Experience in the development of various Java, C#, Typescript and SQL related programs. 
-          My overall aim is to constantly keep learning and expanding my skillset while adapting the best practices that will help me work in the most efficient way possible.
+          Currently in a Software/QA Engineer role at Verizon Connect with strong knowledge of Object Orientated programming and computer applications. Experience in the development of various .Net, Java, Typescript and SQL related programs.
+           My aim is to be proficient in different languages, architectures, frameworks and practices that would allow me to implement them in any scenario or project in the most efficient way possible.
           </p>
         </div>
       </div>
