@@ -30,14 +30,13 @@ const Portfolio = () => {
   const openPopupboxTCEvents = () => {
     const content = (
 <>
-      <h2>Description</h2>
+      <b>Functionaility:</b>
        <ul>
-          <li>A cross platform mobile application build using Ionic framework to make managing clients easier for personal trainers and vice versa. </li>
-          <li>Utilized Google Cron jobs to provide subscription-based access to resources and implemented Stripe for payment. </li>
-          <li>Firestore was used as the back-end to host the application while also taking advantage of the Security and Cloud Messaging features that it offered and angular was used to design the front-end </li>
-          <li>Other features included Calorie Counting which made use of the NutritionX API for food Database, News Feed, Instant Messaging and Goal Tracking  </li>
+          <li>Worked as part of a 3-person group to develop a web application called TC Events that sells tickets for various events. </li>
+          <li>This project involved all stages of the software development life cycle from the user requirements, to use case diagram, to class diagram and right through to developing and testing the application. </li>
+          <li>The application has a fully functioning checkout which used Stripe to take customer payments. </li>
         </ul>
-        <p><b>Technologies & Tools Used:</b> Ionic Framework, Typescript, AngularJS, Firestore Database, Firebase Cloud Messaging, Firebase Authentication, Firebase Cloud Functions, HTML, CSS, Jenkins, NutritionX API, Google Cron Jobs (Task Schedule)</p>
+        <p><b>Technologies & Tools Used:</b> Java Play!, Java Persistence language, HTML/Scala, CSS, JavaScript, jQuery , VirtualBox, Visio, Rational Rhapsody, IntelliJ IDEA</p>
       </>
     )
     PopupboxManager.open({ content })
@@ -115,6 +114,7 @@ const indicatorStyles  = {
   return (
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
+      <h1 className="text-uppercase text-center py-5">portfolio</h1>
         <div class="row">
           <div class="col-12 col-md-6 col-lg-6" >
             <div class="portfolioCard">
@@ -181,12 +181,13 @@ const indicatorStyles  = {
               </div>
               <div class="card-body">
                 <h5 class="card-title">Pocket Coach</h5>
-                <p>This is an application for Trainer and clients to get together.</p>
+                <p>Calorie Tracking & Personal Trainer App.</p>
                 <b><FaInfo></FaInfo></b> <a className="hyper-link" onClick={openPopupboxPocketCoach}>Tech Stack & Functionaility</a>
-                <br />
-                <b><FaLink></FaLink> Demo:</b> <a className="hyper-link" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.com/", "_blank")}>https://portfolio-rea-and-material-ui.herokuapp.com/</a>
-                <br />
-                <b><FaGithub></FaGithub> GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/portfilio", "_blank")}>https://github.com/8020Coding/portfilio</a>
+                <br></br>
+                <div id='links'>
+                <button class="button button4" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.com/", "_blank")}><b><FaLink></FaLink> Demo</b></button>
+                <button class="button button4" onClick={() => window.open("https://github.com/8020Coding/portfilio", "_blank")}><b><FaGithub></FaGithub> GitHub</b></button>
+                </div>
               </div>
             </div>
           </div>
@@ -231,12 +232,12 @@ const indicatorStyles  = {
               </div>
               <div class="card-body">
                 <h5 class="card-title">TC Events</h5>
-                <p>This is an application for Trainer and clients to get together.</p>
+                <p>A web application called TC Events that sells tickets for various events.</p>
                 <b><FaInfo></FaInfo></b> <a className="hyper-link" onClick={openPopupboxTCEvents}>Tech Stack & Functionaility</a>
-                <br />
-                <b><FaLink></FaLink> Demo:</b> <a className="hyper-link" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.com/", "_blank")}>https://portfolio-rea-and-material-ui.herokuapp.com/</a>
-                <br />
-                <b><FaGithub></FaGithub> GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/portfilio", "_blank")}>https://github.com/8020Coding/portfilio</a>
+                <div id='links'>
+                <button class="button button4" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.com/", "_blank")}><b><FaLink></FaLink> Demo</b></button>
+                <button class="button button4" onClick={() => window.open("https://github.com/8020Coding/portfilio", "_blank")}><b><FaGithub></FaGithub> GitHub</b></button>
+                </div>
               </div>
             </div>
           </div>
