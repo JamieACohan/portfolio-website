@@ -314,8 +314,91 @@ border-top: 0.1875rem solid var(--primary-orange);
 }
 
 /************************ PORTFOLIO *********************************/
+
+.slider {
+  position: relative;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100vh;
+  height: 20rem;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+@media(max-width: 768px) {
+  /* .slider {
+    width: 70%;
+  } */
+  .image {
+    width: 100%;
+  }
+
+}
+
+@media(max-width: 1200px) {
+  /* .slider {
+    width: 70%;
+  } */
+  .image {
+    width: 100%;
+  }
+
+}
+
+@media(max-height: 540px) {
+  /* .slider {
+    width: 70%;
+  } */
+  .image {
+    height: 20%;
+  }
+
+}
+
+/******************************************************************/
+
+.portfolio {
+  background:var(--primary-dark);
+}
+
 .portfolio-wrapper {
-  background: var(--primary-light-grey);
   padding: 3rem 0;
 }
 
@@ -341,7 +424,7 @@ border-top: 0.1875rem solid var(--primary-orange);
 }
 
 .card-body{
-  background-color: var(--primary-dark-grey);
+  background:var(--primary-dark);
   margin-top: 1rem!important;
   color: white;
   height: 13rem;
@@ -381,16 +464,25 @@ border-top: 0.1875rem solid var(--primary-orange);
   border-radius: 12px;
 }
 
-.cardCarousel {
-  margin-bottom: 2rem;
+.button4:hover {background-color: var(--primary-hover-red)}
 
+.button4:active {
+  background-color: var(--primary-hover-red);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.cardCarousel {
+  margin: 2rem;
 }
 
 .portfolioCard{
+  background:var(--primary-dark);
   border: 0.5px solid black;
   margin-bottom: 10px;
   margin-bottom: 25px;
   margin-top: 25px;
+  
 }
 
 .portfolioCard:hover{
@@ -400,6 +492,7 @@ border-top: 0.1875rem solid var(--primary-orange);
   margin-bottom: 10px;
   margin-bottom: 25px;
   margin-top: 25px;
+  border-radius: 4px;
 }
 
 .style-1 {
