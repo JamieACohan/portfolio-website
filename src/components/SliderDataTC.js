@@ -9,9 +9,6 @@ import tc2 from "../images/tc2.PNG";
 
 export const SliderDataTC = [
     {
-      image: tc
-    },
-    {
       image: tc_1
         
     },
@@ -25,10 +22,6 @@ export const SliderDataTC = [
     },
     {
       image: tc0
-        
-    },
-    {
-      image: tc1
         
     },
     {
