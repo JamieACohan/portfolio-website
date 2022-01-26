@@ -96,8 +96,8 @@ const indicatorStyles  = {
                 <b><FaInfo></FaInfo></b> <a className="hyper-link" onClick={openPopupboxPocketCoach}>Tech Stack & Functionaility</a>
                 <br></br>
                 <div id='links'>
-                <button class="button button4" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.com/", "_blank")}><b><FaLink></FaLink> Demo</b></button>
-                <button class="button button4" onClick={() => window.open("https://github.com/8020Coding/portfilio", "_blank")}><b><FaGithub></FaGithub> GitHub</b></button>
+                <button class="button button4" onClick={() => window.open("", "_blank")}><b><FaLink></FaLink> Demo</b></button>
+                <button class="button button4" onClick={() => window.open("", "_blank")}><b><FaGithub></FaGithub> GitHub</b></button>
                 </div>
               </div>
             </div>
@@ -112,8 +112,8 @@ const indicatorStyles  = {
                 <p>A Ticket Selling App</p>
                 <b><FaInfo></FaInfo></b> <a className="hyper-link" onClick={openPopupboxTCEvents}>Tech Stack & Functionaility</a>
                 <div id='links'>
-                <button class="button button4" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.com/", "_blank")}><b><FaLink></FaLink> Demo</b></button>
-                <button class="button button4" onClick={() => window.open("https://github.com/8020Coding/portfilio", "_blank")}><b><FaGithub></FaGithub> GitHub</b></button>
+                <button class="button button4" onClick={() => window.open("", "_blank")}><b><FaLink></FaLink> Demo</b></button>
+                <button class="button button4" onClick={() => window.open("", "_blank")}><b><FaGithub></FaGithub> GitHub</b></button>
                 </div>
               </div>
             </div>
