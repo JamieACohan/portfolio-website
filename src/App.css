@@ -178,10 +178,6 @@ border-top: 0.1875rem solid var(--primary-orange);
   text-align: center;
 }
 
-/* #secondIcon{
-  float:right;
-} */
-
 .services .circle {
   position: relative;
   display: inline-block;
@@ -191,66 +187,6 @@ border-top: 0.1875rem solid var(--primary-orange);
   height: 4.125rem;
   margin: 0.5rem;;
 }
-
-/* @media(max-height: 740px){
-  .services .circle {
-    width: 20%;
-    height: 20%;
-  }
-
-  .services .icon {
-    width: 40%;
-    height: 50%;
-  }
-} */
-
-@media(max-width: 1024px){
-  .services .circle {
-    width: 15%;
-    height: 20%;
-  }
-
-  .services .icon {
-    width: 40%;
-    height: 50%;
-  }
-}
-
-/* @media(max-height: 844px){
-  .services .circle {
-    width: 50%;
-    height: 30%;
-  }
-
-  .services .icon {
-    width: 40%;
-    height: 50%;
-  }
-}
-
-@media(max-height: 1400px){
-  .services .circle {
-    width: 20%;
-    height: 20%;
-  }
-
-  .services .icon {
-    width: 40%;
-    height: 50%;
-  }
-} */
-
-/* @media(max-width: 468px){
-  .services .circle {
-    width: 20%;
-    height: 20%;
-  }
-
-  .services .icon {
-    width: 40%;
-    height: 50%;
-  }
-} */
 
 .services .icon {
   font-size: 2.4rem;
@@ -286,6 +222,20 @@ border-top: 0.1875rem solid var(--primary-orange);
 
 .services .box:hover p {
   color: var(--primary-white);
+}
+
+/*------------ MEDIA ------------------*/
+
+@media(max-width: 1024px){
+  .services .circle {
+    width: 15%;
+    height: 20%;
+  }
+
+  .services .icon {
+    width: 40%;
+    height: 50%;
+  }
 }
 
 /************************ EXPERIENCE *********************************/
@@ -430,6 +380,8 @@ border-top: 0.1875rem solid var(--primary-orange);
   transform: scale(1.08);
 }
 
+/*------------ MEDIA ------------------*/
+
 @media(max-width: 768px) {
   /* .slider {
     width: 70%;
@@ -497,6 +449,7 @@ border-top: 0.1875rem solid var(--primary-orange);
   color: white;
   height: 13rem;
   position:relative;
+  border-radius: 10px;
 }
 
 .card-title {
@@ -550,6 +503,7 @@ border-top: 0.1875rem solid var(--primary-orange);
   margin-bottom: 10px;
   margin-bottom: 25px;
   margin-top: 25px;
+  border-radius: 10px;
   
 }
 

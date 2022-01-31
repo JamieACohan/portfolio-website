@@ -22,7 +22,7 @@ const Portfolio = () => {
 <>
       <b>Functionaility:</b>
        <ul>
-          <li>Worked as part of a 3-person group to develop a web application called TC Events that sells tickets for various events. </li>
+          <li>Web application called TC Events that sells tickets for various events. </li>
           <li>This project involved all stages of the software development life cycle from the user requirements, to use case diagram, to class diagram and right through to developing and testing the application. </li>
           <li>The application has a fully functioning checkout which used Stripe to take customer payments. </li>
         </ul>
@@ -96,8 +96,8 @@ const indicatorStyles  = {
                 <b><FaInfo></FaInfo></b> <a className="hyper-link" onClick={openPopupboxPocketCoach}>Tech Stack & Functionaility</a>
                 <br></br>
                 <div id='links'>
-                <button class="button button4" onClick={() => window.open("", "_blank")}><b><FaLink></FaLink> Demo</b></button>
-                <button class="button button4" onClick={() => window.open("", "_blank")}><b><FaGithub></FaGithub> GitHub</b></button>
+                <button class="button button4" onClick={() => window.open("https://mealmate-ad158.web.app/#/login", "_blank")}><b><FaLink></FaLink> Demo</b></button>
+                <button class="button button4" onClick={() => window.open("https://github.com/JamieACohan/PocketCoach", "_blank")}><b><FaGithub></FaGithub> GitHub</b></button>
                 </div>
               </div>
             </div>
@@ -112,8 +112,8 @@ const indicatorStyles  = {
                 <p>A Ticket Selling App</p>
                 <b><FaInfo></FaInfo></b> <a className="hyper-link" onClick={openPopupboxTCEvents}>Tech Stack & Functionaility</a>
                 <div id='links'>
-                <button class="button button4" onClick={() => window.open("", "_blank")}><b><FaLink></FaLink> Demo</b></button>
-                <button class="button button4" onClick={() => window.open("", "_blank")}><b><FaGithub></FaGithub> GitHub</b></button>
+                <button class="button button4" onClick={() => window.open("https://github.com/JamieACohan/TicketStore", "_blank")}><b><FaLink></FaLink> Demo</b></button>
+                <button class="button button4" onClick={() => window.open("https://github.com/JamieACohan/TicketStore", "_blank")}><b><FaGithub></FaGithub> GitHub</b></button>
                 </div>
               </div>
             </div>
